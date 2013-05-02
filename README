@@ -1,0 +1,7 @@
+pygdiff is a tools to full compare git commites, it also works on projects with submodules.
+
+Comparing with "git diff", pygdiff will list all different files between two commites, and start a new thread with meld to do fully comparing.
+
+How to use:
+   $python pygdiff.py arg1 arg2
+   The arg should be branch, tag or SHA1.
